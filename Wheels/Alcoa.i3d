@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Juniohim" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="22" filename="GoodyearCravudoNormal.dds"/>
+    <File fileId="20" filename="GoodyearLisoNormal.dds"/>
+    <File fileId="19" filename="Hub.dds"/>
+    <File fileId="21" filename="SpecTrazeiroCravudo.dds"/>
+    <File fileId="2" filename="alcoa1Spec.dds"/>
+    <File fileId="9" filename="alcoaSpec.dds"/>
+    <File fileId="7" filename="alcoa_uone_diffuse.dds"/>
+    <File fileId="13" filename="cubo_sSpec.dds"/>
+    <File fileId="18" filename="default_normal.dds"/>
+    <File fileId="14" filename="front_scaniad_01_hub.dds"/>
+    <File fileId="16" filename="front_scaniad_01_hubSpec.dds"/>
+    <File fileId="15" filename="front_scaniad_01_hubnormal.dds"/>
+    <File fileId="11" filename="seloSepc.dds"/>
+    <File fileId="3" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="8" filename="$data/shared/default_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="Hub" materialId="4" diffuseColor="0.8 0.8 0.8 1" customShaderId="3" customShaderVariation="colorMask">
+      <Normalmap fileId="18"/>
+      <Glossmap fileId="19"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 1 1 8"/>
+      <CustomParameter name="colorMat2" value="1 1 1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert2" materialId="5" diffuseColor="0.0156863 0.0156863 0.0156863 1" customShaderId="3">
+      <Glossmap fileId="13"/>
+      <CustomParameter name="RDT" value="1 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="lambert2" materialId="6" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.915 0.5 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="lambert4" materialId="7" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="tirePressureDeformation">
+      <Normalmap fileId="22"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+      <CustomParameter name="morphPosition" value="-0.45 -0.91 0 0.1"/>
+      <CustomParameter name="prevMorphPosition" value="-0.45 -0.915 0.5 0.1"/>
+    </Material>
+    <Material name="lambert5" materialId="8" customShaderId="3">
+      <Texture fileId="14"/>
+      <Normalmap fileId="15"/>
+      <Glossmap fileId="16"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="lambert5" materialId="9" diffuseColor="1 1 1 1" specularColor="1 1 1">
+    </Material>
+    <Material name="lambert58" materialId="10" alphaBlending="true" customShaderId="3">
+      <Texture fileId="7"/>
+      <Glossmap fileId="8"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="lambert7" materialId="11" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="colorMask">
+      <Glossmap fileId="2"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 3"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert_mat" materialId="12" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="colorMask">
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="0 1 12.36 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 3"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="Material #271" materialId="13" diffuseColor="0 0.00392157 0.219608 1" customShaderId="3">
+      <Glossmap fileId="11"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="Roda1_mat" materialId="14" diffuseColor="1 1 1 1" customShaderId="3" customShaderVariation="colorMask">
+      <Glossmap fileId="9"/>
+      <CustomParameter name="RDT" value="0 0 20 20"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="Alcoa.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="Rim" scale="1 0.9 0.9" nodeId="40">
+        <Shape shapeId="1" name="EsquerdaDIANTEIRA" nodeId="41" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="2" name="_L_01" nodeId="42" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="3" name="DireitaDIANTEIRA" nodeId="43" materialIds="11" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="4" name="_L_01" nodeId="44" materialIds="10" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="5" name="EsquerdaTRAS" nodeId="45" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="6" name="selo" nodeId="46" materialIds="13" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+          <Shape shapeId="7" name="Object001" nodeId="47" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="8" name="PadraoESQ" nodeId="48" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="9" name="DireitaTRAS" nodeId="49" materialIds="12" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="10" name="selo" nodeId="50" materialIds="13" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+          <Shape shapeId="11" name="Object001" nodeId="51" materialIds="14" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="12" name="PadraoDIR" nodeId="52" materialIds="5" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="Hub" scale="1 0.9 0.9" nodeId="53">
+        <Shape shapeId="8" name="DianteiroDIR" nodeId="54" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="13" name="_R" nodeId="55" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="14" name="CAPAS" translation="-0.07 0 0" nodeId="56" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="12" name="DianteiroESQ" nodeId="57" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="15" name="_R" nodeId="58" materialIds="8" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="16" name="CAPAS" translation="0.07 0 0" nodeId="59" materialIds="9" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="17" name="Hub" nodeId="60" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="18" name="Cap" visibility="false" nodeId="61" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="17" name="Hub" rotation="0 -0 180" nodeId="62" materialIds="4" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="18" name="Cap" visibility="false" nodeId="63" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="Tire" scale="1 0.9 0.9" nodeId="64">
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " nodeId="65" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="20" name="GoodYear Marathon LHD2 Direito Traseiro" nodeId="66" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="21" name="GoodYear Marathon LHD2 Esquerdo Traseiro" nodeId="67" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="22" name="GoodYear Marathon LHD2 Esquerdo Traseiro" nodeId="68" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="20" name="GoodYear Marathon LHD2 Direito Traseiro" translation="-0.0255631 0 0" scale="0.8 1 1" nodeId="69" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="21" name="GoodYear Marathon LHD2 Esquerdo Traseiro" translation="0.0182789 0 0" scale="0.8 1 1" nodeId="70" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="23" name="GoodYear Marathon LHD Dianteiro " nodeId="71" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " nodeId="72" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " translation="0.00296479 0 0" nodeId="73" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="24" name="GoodYear Marathon LHD Dianteiro " translation="0.307 0 0" nodeId="74" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " translation="0.003 0 0" nodeId="75" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="24" name="GoodYear Marathon LHD Dianteiro " translation="-0.388 0 0" nodeId="76" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " translation="-0.307 0 0" scale="0.8 1 1" nodeId="77" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="24" name="GoodYear Marathon LHD Dianteiro " translation="0.307 0 0" nodeId="78" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Shape shapeId="19" name="GoodYear Marathon LHD Dianteiro " translation="0.307 0 0" scale="0.8 1 1" nodeId="79" materialIds="6" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="24" name="GoodYear Marathon LHD Dianteiro " translation="-0.388 0 0" nodeId="80" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+      </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="41">
+      <Attribute name="MaxHandle" type="integer" value="2"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="42">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="43">
+      <Attribute name="MaxHandle" type="integer" value="2"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="44">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="45">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="47">
+      <Attribute name="MaxHandle" type="integer" value="9"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="48">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="49">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="MaxHandle" type="integer" value="9"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="52">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="54">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="55">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="56">
+      <Attribute name="MaxHandle" type="integer" value="3"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="57">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="58">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="59">
+      <Attribute name="MaxHandle" type="integer" value="3"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="65">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="66">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="67">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="68">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="69">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="70">
+      <Attribute name="MaxHandle" type="integer" value="1"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="71">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="72">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="73">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="74">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="75">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="76">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="77">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="78">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="79">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+    <UserAttribute nodeId="80">
+      <Attribute name="MaxHandle" type="integer" value="14"/>
+      <Attribute name="UDP3DSMAX" type="string" value="MapChannel:1 = map1"/>
+      <Attribute name="currentUVSet" type="string" value="map1"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032edgeFBXASC032length" type="float" value="2"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032maxFBXASC032displace" type="float" value="20"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032method" type="integer" value="6"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032parametricFBXASC032subdivisionFBXASC032level" type="integer" value="5"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032smoothingFBXASC032on" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032useFBXASC032globalFBXASC032settings" type="boolean" value="true"/>
+      <Attribute name="mrFBXASC032displacementFBXASC032viewFBXASC032dependent" type="boolean" value="true"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

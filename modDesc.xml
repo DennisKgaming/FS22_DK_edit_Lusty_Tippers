@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>JFL Modding, (ATS. TSA, Ventyres, Bora, Swen.) </author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Lusty Tippers DK edit</en>
+        <de>Lusty Tippers DK edit</de>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Graham Lusty Trailers (GLT) bring you the most innovative and beautifully crafted trailers in the Australian market
+- Lead Trailer   Capacity: 40000l Price: 52500
+- Follow Trailer Capacity: 60000l Price: 72500
+- TOA Trailer 	 Capacity: 60000l Price: 72500
+]]>
+        </en>
+        <de>
+            <![CDATA[Graham Lusty Trailers (GLT) bietet Ihnen die innovativsten und am besten gefertigten Anhänger auf dem australischen Markt
+- Lead Trailer Kapazität: 40000l Preis: 52500
+- Folgen Trailer Kapazität: 60000l Preis: 72500
+- TOA Trailer Kapazität: 60000l Preis: 72500
+]]>
+		</de>
+    </description>
+    <iconFilename>icons/icon_lusty.dds</iconFilename>
+	
+    <multiplayer supported="true" />
+
+	<l10n>
+		<text name="configuration_gaurd"><en>Gaurds</en></text>	
+		<text name="configuration_graphics"><en>Graphics</en></text>	
+		<text name="configuration_plate"><en>Standard Plate</en></text>	
+		<text name="configuration_spiderc"><en>Spider Colour</en></text>	
+		<text name="configuration_tarpc"><en>Tarp Colour</en></text>	
+		<text name="configuration_tankc"><en>Tank Colour</en></text>	
+		
+        <text name="fold_OBJECT">
+            <en>Close Tailgate</en>
+        </text>	
+        <text name="unfold_OBJECT">
+            <en>Open Tailgate</en>
+        </text>	
+	</l10n>
+	
+	<brands>
+        <brand name="LUSTY" title="LUSTY" image="icons/brand_lusty.dds"/>
+    </brands>
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/LustytipperTOA.xml" rootNode="vehicle"/>
+        <storeItem xmlFilename="xml/LustytipperCT.xml"  rootNode="vehicle"/>
+        <storeItem xmlFilename="xml/LustytipperACT.xml" rootNode="vehicle"/>
+    </storeItems>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
