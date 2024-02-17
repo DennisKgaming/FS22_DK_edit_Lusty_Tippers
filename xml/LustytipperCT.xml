@@ -466,7 +466,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK" capacity="60000" allowAILoading="true" >
+                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK" capacity="75000" allowAILoading="true" >
                         <exactFillRootNode node="0>3|3|1" />
                         <autoAimTargetNode node="0>3|3|2" startZ="4.5" endZ="-4.3" invert="false" fillUnitIndex="1" startPercentage="25"/>
                         <dashboard displayType="TEXT" valueType="fillLevel" node="0>5|0" textColor="1 0 0 1" textSize="0.03" textMask="000000" font="DIGIT" />
