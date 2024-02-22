@@ -10,18 +10,19 @@
     <File fileId="34" filename="$data/shared/assets/lights/lizard/sideMarker05_normal.png"/>
     <File fileId="35" filename="$data/shared/assets/lights/lizard/sideMarker05_vmask.png"/>
     <File fileId="31" filename="$data/shared/clearPlastic_diffuse.png"/>
-    <File fileId="38" filename="$data/shared/connectionHoses/airConnector_normal.png"/>
-    <File fileId="39" filename="$data/shared/connectionHoses/airConnector_vmask.dds"/>
-    <File fileId="42" filename="$data/shared/connectionHoses/connectors1_normal.png"/>
-    <File fileId="43" filename="$data/shared/connectionHoses/connectors1_vmask.dds"/>
-    <File fileId="36" filename="$data/shared/connectionHoses/connectors_normal.png"/>
-    <File fileId="37" filename="$data/shared/connectionHoses/connectors_vmask.dds"/>
+    <File fileId="43" filename="$data/shared/connectionHoses/airConnector_normal.png"/>
+    <File fileId="44" filename="$data/shared/connectionHoses/airConnector_vmask.dds"/>
+    <File fileId="47" filename="$data/shared/connectionHoses/connectors1_normal.png"/>
+    <File fileId="48" filename="$data/shared/connectionHoses/connectors1_vmask.dds"/>
+    <File fileId="41" filename="$data/shared/connectionHoses/connectors_normal.png"/>
+    <File fileId="42" filename="$data/shared/connectionHoses/connectors_vmask.dds"/>
     <File fileId="20" filename="$data/shared/default_normal.dds"/>
-    <File fileId="41" filename="$data/shared/default_specular.png"/>
-    <File fileId="47" filename="../Textures/DetailTankL1.png"/>
+    <File fileId="46" filename="$data/shared/default_specular.png"/>
+    <File fileId="39" filename="$data/shared/window02_diffuse.dds"/>
+    <File fileId="52" filename="../Textures/DetailTankL1.png"/>
     <File fileId="18" filename="../Textures/FS19/R22_5_DS_normal.png"/>
     <File fileId="19" filename="../Textures/FS19/R22_5_DS_specular.png"/>
-    <File fileId="40" filename="../Textures/FS19/assetLibraryDecals_normal.png"/>
+    <File fileId="45" filename="../Textures/FS19/assetLibraryDecals_normal.png"/>
     <File fileId="22" filename="../Textures/FS19/hubTruck005_normal.png"/>
     <File fileId="23" filename="../Textures/FS19/hubTruck005_specular.png"/>
     <File fileId="32" filename="../Textures/FS19/rear5ChamberLight_02_normal.png"/>
@@ -29,8 +30,8 @@
     <File fileId="29" filename="../Textures/FS19/rearLightOvalLEDRed_02_normal.png"/>
     <File fileId="30" filename="../Textures/FS19/rearLightOvalLEDRed_02_specular.png"/>
     <File fileId="21" filename="../Textures/FS19/rim001_specular.png"/>
-    <File fileId="49" filename="../Textures/FS19/sideMarker_04Orange_normal.png"/>
-    <File fileId="50" filename="../Textures/FS19/sideMarker_04Orange_specular.png"/>
+    <File fileId="54" filename="../Textures/FS19/sideMarker_04Orange_normal.png"/>
+    <File fileId="55" filename="../Textures/FS19/sideMarker_04Orange_specular.png"/>
     <File fileId="14" filename="../Textures/FrameCTParts.dds"/>
     <File fileId="25" filename="../Textures/Led.dds"/>
     <File fileId="4" filename="../Textures/RimChrome_Spec.dds"/>
@@ -41,28 +42,32 @@
     <File fileId="27" filename="../Textures/default_specular.dds"/>
     <File fileId="26" filename="../Textures/window_diffuse.dds"/>
     <File fileId="12" filename="../Textures\Detail.dds"/>
-    <File fileId="48" filename="../Textures\DetailTankL2.dds"/>
+    <File fileId="53" filename="../Textures\DetailTankL2.dds"/>
     <File fileId="13" filename="../Textures\Detail_Spec.dds"/>
     <File fileId="15" filename="../Textures\FrameCT.dds"/>
     <File fileId="11" filename="../Textures\Gaurds.dds"/>
     <File fileId="16" filename="../Textures\Hoist.dds"/>
-    <File fileId="45" filename="../Textures\TailGate.dds"/>
-    <File fileId="44" filename="../Textures\TankL.dds"/>
-    <File fileId="46" filename="../Textures\Tarp.dds"/>
+    <File fileId="50" filename="../Textures\TailGate.dds"/>
+    <File fileId="49" filename="../Textures\TankL.dds"/>
+    <File fileId="51" filename="../Textures\Tarp.dds"/>
     <File fileId="10" filename="../Textures\default_normal.dds"/>
+    <File fileId="38" filename="../lights/Flash/Flash.i3d"/>
+    <File fileId="40" filename="../lights/Flash/Flash2.i3d"/>
+    <File fileId="36" filename="../lights/Flash/rearLightOvalLED_01_normal.png"/>
+    <File fileId="37" filename="../lights/Flash/rearLightOvalLED_01_specular.png"/>
   </Files>
 
 
   <Materials>
     <Material name="airConnector_mat" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="38"/>
-      <Glossmap fileId="39"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
       <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
       <CustomParameter name="colorMat1" value="0.673 0.4704 0.022 1"/>
     </Material>
     <Material name="assetLibraryDecals_mat" materialId="6" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="40"/>
-      <Glossmap fileId="41"/>
+      <Normalmap fileId="45"/>
+      <Glossmap fileId="46"/>
       <CustomParameter name="RDT" value="0 0 20 20"/>
       <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
       <CustomParameter name="colorMat1" value="0.5356 0.0254 0.0254 8"/>
@@ -86,6 +91,27 @@
       <Glossmap fileId="30"/>
       <CustomParameter name="colorMat0" value="1 0.25 0 2"/>
     </Material>
+    <Material name="clearPlastic_mat" materialId="687" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight_multiBlink">
+      <Texture fileId="39"/>
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 2"/>
+      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+      <CustomParameter name="blinkOffset" value="3 2 45.05 0"/>
+    </Material>
+    <Material name="clearPlastic_mat" materialId="676" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight_multiBlink">
+      <Texture fileId="39"/>
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 2"/>
+      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+      <CustomParameter name="lightControl" value="200 0 0 0"/>
+      <CustomParameter name="blinkOffset" value="3 2 45 0"/>
+    </Material>
     <Material name="clearPlastic_mat2" materialId="9" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
       <Texture fileId="31"/>
       <Normalmap fileId="32"/>
@@ -95,15 +121,15 @@
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="connectors1_mat" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="42"/>
-      <Glossmap fileId="43"/>
+      <Normalmap fileId="47"/>
+      <Glossmap fileId="48"/>
       <CustomParameter name="colorMat0" value="0.3587 0.0328 0.0352 1"/>
       <CustomParameter name="colorMat1" value="0.673 0.4783 0.023 1"/>
       <CustomParameter name="colorMat2" value="0.01 0.01 0.01 1"/>
     </Material>
     <Material name="connectors_mat" materialId="11" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="36"/>
-      <Glossmap fileId="37"/>
+      <Normalmap fileId="41"/>
+      <Glossmap fileId="42"/>
       <CustomParameter name="RDT" value="0 0 20 20"/>
       <CustomParameter name="colorMat0" value="0.5356 0.0254 0.0254 1"/>
       <CustomParameter name="colorMat1" value="0.5356 0.0254 0.0254 8"/>
@@ -117,12 +143,12 @@
       <Glossmap fileId="13"/>
     </Material>
     <Material name="Detail2" materialId="14" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
-      <Texture fileId="48"/>
+      <Texture fileId="53"/>
       <Normalmap fileId="10"/>
-      <Glossmap fileId="44"/>
+      <Glossmap fileId="49"/>
     </Material>
     <Material name="DetailTankL" materialId="15" alphaBlending="true" customShaderId="5" customShaderVariation="Decal">
-      <Texture fileId="47"/>
+      <Texture fileId="52"/>
       <Normalmap fileId="10"/>
     </Material>
     <Material name="effect_mat" materialId="16" diffuseColor="0.494118 0.494118 0.494118 1">
@@ -233,6 +259,23 @@
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
+    <Material name="rearLightOvalLED_01_mat" materialId="677" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 2"/>
+      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+    </Material>
+    <Material name="rearLightOvalLED_01_mat1" materialId="678" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
+      <Normalmap fileId="36"/>
+      <Glossmap fileId="37"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="colorMat0" value="1 1 1 2"/>
+      <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+      <CustomParameter name="blinkOffset" value="0 0 35 0"/>
+    </Material>
     <Material name="rearLightOvalLEDRed_02_mat" materialId="30" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="29"/>
       <Glossmap fileId="30"/>
@@ -260,15 +303,15 @@
       <CustomParameter name="lightControl" value="4.5 0 0 0"/>
     </Material>
     <Material name="sideMarker_04Orange_mat" materialId="34" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="5" customShaderVariation="colorMask">
-      <Normalmap fileId="49"/>
-      <Glossmap fileId="50"/>
+      <Normalmap fileId="54"/>
+      <Glossmap fileId="55"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
     </Material>
     <Material name="sideMarker_04Orange_mat1" materialId="35" diffuseColor="0.494118 0.494118 0.494118 1" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
-      <Normalmap fileId="49"/>
-      <Glossmap fileId="50"/>
+      <Normalmap fileId="54"/>
+      <Glossmap fileId="55"/>
       <CustomParameter name="colorMat0" value="1 1 1 2"/>
       <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
       <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
@@ -296,7 +339,7 @@
     </Material>
     <Material name="TailGate" materialId="39" diffuseColor="0.8 0.8 0.8 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="10"/>
-      <Glossmap fileId="45"/>
+      <Glossmap fileId="50"/>
       <CustomParameter name="colorMat0" value="0.573 0.005 0.005 0"/>
       <CustomParameter name="colorMat1" value="1 1 1 0"/>
       <CustomParameter name="colorMat2" value="0.4 0.4 0.4 0"/>
@@ -308,7 +351,7 @@
     </Material>
     <Material name="TankL.003" materialId="40" diffuseColor="0.8 0.8 0.8 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="10"/>
-      <Glossmap fileId="44"/>
+      <Glossmap fileId="49"/>
       <CustomParameter name="colorMat0" value="0.573 0.005 0.005 0"/>
       <CustomParameter name="colorMat1" value="1 1 1 0"/>
       <CustomParameter name="colorMat2" value="0.4 0.4 0.4 0"/>
@@ -320,12 +363,12 @@
     </Material>
     <Material name="Tarp" materialId="41" diffuseColor="0.8 0.8 0.8 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="10"/>
-      <Glossmap fileId="46"/>
+      <Glossmap fileId="51"/>
       <CustomParameter name="colorMat7" value="0.575 0.005 0.005 23"/>
     </Material>
     <Material name="TarpL" materialId="42" diffuseColor="0.8 0.8 0.8 1" customShaderId="5" customShaderVariation="colorMask">
       <Normalmap fileId="10"/>
-      <Glossmap fileId="46"/>
+      <Glossmap fileId="51"/>
       <CustomParameter name="colorMat0" value="0.573 0.005 0.005 0"/>
       <CustomParameter name="colorMat1" value="1 1 1 0"/>
       <CustomParameter name="colorMat2" value="0.4 0.4 0.4 0"/>
@@ -776,6 +819,24 @@
             <Shape shapeId="40" name="sideMarker05Red" translation="-0.215 0.717461 -5.31865" rotation="-90 -0 0" clipDistance="300" nodeId="391" materialIds="33" castsShadows="true" receiveShadows="true">
               <Shape shapeId="41" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="392" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
+            <TransformGroup name="flasherLights" nodeId="655">
+              <TransformGroup name="flasherL" translation="0.650682 0.711059 -5.37163" rotation="-90 -0 0" nodeId="654">
+                <Shape shapeId="42" name="flasher_01" referenceId="38" visibility="false" clipDistance="300" nodeId="683" materialIds="677" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="43" name="lightStatic" clipDistance="35" nodeId="684" materialIds="676" castsShadows="true" receiveShadows="true" decalLayer="1">
+                    <Light name="realLight" translation="-5.1461e-05 0.0149731 0" rotation="90 -90 0" clipDistance="300" nodeId="685" type="spot" color="1 0.423083 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="5" coneAngle="100" dropOff="5"/>
+                  </Shape>
+                  <Shape shapeId="44" name="innerPartStatic" clipDistance="35" nodeId="686" materialIds="678" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                </Shape>
+              </TransformGroup>
+              <TransformGroup name="flasherR" translation="-0.651 0.711059 -5.37163" rotation="-90 -0 0" nodeId="696">
+                <Shape shapeId="42" name="flasher_02" referenceId="40" visibility="false" clipDistance="300" nodeId="692" materialIds="677" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="43" name="lightStatic" clipDistance="35" nodeId="693" materialIds="687" castsShadows="true" receiveShadows="true" decalLayer="1">
+                    <Light name="realLight" translation="-5.1461e-05 0.0149731 0" rotation="90 -90 0" clipDistance="300" nodeId="694" type="spot" color="1 0.423083 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="0.005" depthMapSlopeClamp="0.02" depthMapResolution="256" shadowFarDistance="80" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="5" coneAngle="100" dropOff="5"/>
+                  </Shape>
+                  <Shape shapeId="44" name="innerPartStatic" clipDistance="35" nodeId="695" materialIds="678" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                </Shape>
+              </TransformGroup>
+            </TransformGroup>
           </TransformGroup>
           <TransformGroup name="RealLights" nodeId="393">
             <Light name="brakeLight" translation="0.95274 0.705946 -5.40059" rotation="-45 -0 0" nodeId="394" type="spot" color="0.5 0 0" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.0012" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="1024" shadowFarDistance="80" shadowExtrusionDistance="200" pcssLightSize="50" pcssLightDistance="50" pcssDepthBiasFactor="1" pcssMaxPenumbraSize="1" shadowPerspective="false" range="3" coneAngle="90" dropOff="4">
@@ -799,48 +860,48 @@
           </TransformGroup>
           <TransformGroup name="connectionHoses" translation="-1.61772e-07 0 0" nodeId="407">
             <TransformGroup name="connectors" translation="3.84809e-09 1.294 5.11401" rotation="0 180 0" nodeId="408">
-              <Shape shapeId="42" name="hydraulic" translation="-0.079528 0 0" clipDistance="50" nodeId="409" materialIds="11" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="45" name="hydraulic" translation="-0.079528 0 0" clipDistance="50" nodeId="409" materialIds="11" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="0 0 -0.116469" rotation="0 180 0" nodeId="410"/>
               </Shape>
-              <Shape shapeId="43" name="electric" translation="-0.00357491 0 0" clipDistance="50" nodeId="411" materialIds="11" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="46" name="electric" translation="-0.00357491 0 0" clipDistance="50" nodeId="411" materialIds="11" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="0 0 -0.0692918" rotation="0 180 0" nodeId="412"/>
               </Shape>
-              <Shape shapeId="44" name="airYellow" translation="0.084228 0 -0.038" clipDistance="50" nodeId="413" materialIds="5" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="47" name="airYellow" translation="0.084228 0 -0.038" clipDistance="50" nodeId="413" materialIds="5" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="-0.00627288 0.000206222 -0.0681544" rotation="0 180 0" nodeId="414"/>
               </Shape>
-              <Shape shapeId="45" name="airRed" translation="0.164486 0 -0.038" clipDistance="50" nodeId="415" materialIds="5" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="48" name="airRed" translation="0.164486 0 -0.038" clipDistance="50" nodeId="415" materialIds="5" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="-0.00627288 0.000206222 -0.0681544" rotation="0 180 0" nodeId="416"/>
               </Shape>
-              <Shape shapeId="42" name="hydraulic" translation="-0.155541 0 0" clipDistance="50" nodeId="417" materialIds="11" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="45" name="hydraulic" translation="-0.155541 0 0" clipDistance="50" nodeId="417" materialIds="11" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="0 0 -0.116469" rotation="0 180 0" nodeId="418"/>
               </Shape>
             </TransformGroup>
             <TransformGroup name="linkableSockets" translation="0 1.294 5.07" rotation="0 180 0" nodeId="419">
-              <Shape shapeId="46" name="electric" translation="-0.00317509 0 0" clipDistance="50" nodeId="420" materialIds="11" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="49" name="electric" translation="-0.00317509 0 0" clipDistance="50" nodeId="420" materialIds="11" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="0 0 -0.0439611" nodeId="421"/>
-                <Shape shapeId="47" name="cab" translation="0 0.0284315 -0.040487" rotation="-90 0 0" visibility="false" clipDistance="50" nodeId="422" materialIds="11" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="47" name="cab" translation="0 0.0284315 -0.040487" clipDistance="50" nodeId="423" materialIds="11" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="48" name="decals" translation="0.000168574 -0.00623945 -0.0219512" clipDistance="30" nodeId="424" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="50" name="cab" translation="0 0.0284315 -0.040487" rotation="-90 0 0" visibility="false" clipDistance="50" nodeId="422" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="50" name="cab" translation="0 0.0284315 -0.040487" clipDistance="50" nodeId="423" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="51" name="decals" translation="0.000168574 -0.00623945 -0.0219512" clipDistance="30" nodeId="424" materialIds="6" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
-              <Shape shapeId="49" name="hydraulic01" translation="-0.155692 9.31323e-12 -1.52896e-07" clipDistance="50" nodeId="425" materialIds="10" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="52" name="hydraulic01" translation="-0.155692 9.31323e-12 -1.52896e-07" clipDistance="50" nodeId="425" materialIds="10" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="-4.45064e-08 -1.08658e-11 -0.0557194" nodeId="426"/>
-                <Shape shapeId="50" name="detachedCab" translation="-1.97047e-08 8.5563e-08 -0.0445183" rotation="0 0 -45" visibility="false" clipDistance="50" nodeId="427" materialIds="10" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="51" name="attachedCab" translation="-1.97047e-08 8.5563e-08 -0.0445183" rotation="0 0 -44.7599" clipDistance="50" nodeId="428" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="53" name="detachedCab" translation="-1.97047e-08 8.5563e-08 -0.0445183" rotation="0 0 -45" visibility="false" clipDistance="50" nodeId="427" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="54" name="attachedCab" translation="-1.97047e-08 8.5563e-08 -0.0445183" rotation="0 0 -44.7599" clipDistance="50" nodeId="428" materialIds="10" castsShadows="true" receiveShadows="true"/>
               </Shape>
-              <Shape shapeId="52" name="hydraulic02" translation="-0.0801418 0 -3.0803e-10" clipDistance="50" nodeId="429" materialIds="10" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="55" name="hydraulic02" translation="-0.0801418 0 -3.0803e-10" clipDistance="50" nodeId="429" materialIds="10" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="1.90735e-08 0 -0.0412251" nodeId="430"/>
-                <Shape shapeId="53" name="detachedCab" translation="8.53212e-09 8.43309e-08 -0.0352999" visibility="false" clipDistance="50" nodeId="431" materialIds="10" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="54" name="attachedCab" translation="8.53212e-09 8.43309e-08 -0.0352999" rotation="0 0 -22.5" clipDistance="50" nodeId="432" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="56" name="detachedCab" translation="8.53212e-09 8.43309e-08 -0.0352999" visibility="false" clipDistance="50" nodeId="431" materialIds="10" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="57" name="attachedCab" translation="8.53212e-09 8.43309e-08 -0.0352999" rotation="0 0 -22.5" clipDistance="50" nodeId="432" materialIds="10" castsShadows="true" receiveShadows="true"/>
               </Shape>
-              <Shape shapeId="55" name="airYellow" translation="0.0913319 0 0" clipDistance="50" nodeId="433" materialIds="5" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="58" name="airYellow" translation="0.0913319 0 0" clipDistance="50" nodeId="433" materialIds="5" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="-0.0156625 0 -0.0680247" nodeId="434"/>
-                <Shape shapeId="56" name="cab" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" visibility="false" clipDistance="50" nodeId="435" materialIds="5" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="56" name="cab" translation="-0.0174319 0.0273966 -0.0398716" clipDistance="50" nodeId="436" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="59" name="cab" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" visibility="false" clipDistance="50" nodeId="435" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="59" name="cab" translation="-0.0174319 0.0273966 -0.0398716" clipDistance="50" nodeId="436" materialIds="5" castsShadows="true" receiveShadows="true"/>
               </Shape>
-              <Shape shapeId="55" name="airRed" translation="0.17066 0 0" clipDistance="50" nodeId="437" materialIds="5" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="58" name="airRed" translation="0.17066 0 0" clipDistance="50" nodeId="437" materialIds="5" castsShadows="true" receiveShadows="true">
                 <TransformGroup name="referencePoint" translation="-0.0156625 0 -0.0680247" nodeId="438"/>
-                <Shape shapeId="57" name="cab" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" visibility="false" clipDistance="50" nodeId="439" materialIds="5" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="57" name="cab" translation="-0.0174319 0.0273966 -0.0398716" clipDistance="50" nodeId="440" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="60" name="cab" translation="-0.0174319 0.0273966 -0.0398716" rotation="-95 0 0" visibility="false" clipDistance="50" nodeId="439" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="60" name="cab" translation="-0.0174319 0.0273966 -0.0398716" clipDistance="50" nodeId="440" materialIds="5" castsShadows="true" receiveShadows="true"/>
               </Shape>
             </TransformGroup>
             <TransformGroup name="RefPoint" translation="0 1.12133 -5.31541" rotation="0 -5.00896e-06 0" nodeId="441">
@@ -855,18 +916,18 @@
           <TransformGroup name="HydFrameRef" translation="0 1.469 4.692" rotation="-90 0 0" nodeId="448"/>
           <TransformGroup name="HydFrameRef" translation="0 1.469 4.692" rotation="-90 0 0" nodeId="449"/>
         </TransformGroup>
-        <Shape shapeId="58" name="TankL.010" translation="0.000429 1.166 -5.255" nodeId="450" materialIds="40" castsShadows="true" receiveShadows="true">
-          <Shape shapeId="59" name="TailGate.007" translation="1.30462 2.20024 -0.285384" nodeId="451" materialIds="39" castsShadows="true" receiveShadows="true">
-            <Shape shapeId="60" name="TailGate" translation="-1.30462 0.151769 0" nodeId="452" materialIds="39" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="61" name="Cube.002" translation="0.000427 -3.51811 5.53994" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="453" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-              <Shape shapeId="62" name="Detail.003" translation="0.000427 -3.51811 5.56547" nodeId="454" materialIds="13" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="63" name="Detail.005" translation="0.000431 -3.51811 5.565" nodeId="455" materialIds="13" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="64" name="TailGate.004" translation="0.000429 -1.80988 0.112491" nodeId="456" materialIds="39" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="65" name="TailGate.006" translation="-4e-06 -0.145415 -0.046461" nodeId="457" materialIds="39" castsShadows="true" receiveShadows="true">
-                  <Shape shapeId="66" name="TailGate.005" translation="0 0.360711 0.004182" nodeId="458" materialIds="39" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="61" name="TankL.010" translation="0.000429 1.166 -5.255" nodeId="450" materialIds="40" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="62" name="TailGate.007" translation="1.30462 2.20024 -0.285384" nodeId="451" materialIds="39" castsShadows="true" receiveShadows="true">
+            <Shape shapeId="63" name="TailGate" translation="-1.30462 0.151769 0" nodeId="452" materialIds="39" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="64" name="Cube.002" translation="0.000427 -3.51811 5.53994" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="453" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              <Shape shapeId="65" name="Detail.003" translation="0.000427 -3.51811 5.56547" nodeId="454" materialIds="13" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="66" name="Detail.005" translation="0.000431 -3.51811 5.565" nodeId="455" materialIds="13" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="67" name="TailGate.004" translation="0.000429 -1.80988 0.112491" nodeId="456" materialIds="39" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="68" name="TailGate.006" translation="-4e-06 -0.145415 -0.046461" nodeId="457" materialIds="39" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="69" name="TailGate.005" translation="0 0.360711 0.004182" nodeId="458" materialIds="39" castsShadows="true" receiveShadows="true"/>
                 </Shape>
               </Shape>
-              <Shape shapeId="67" name="TailGate.008" nodeId="459" materialIds="39" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="70" name="TailGate.008" nodeId="459" materialIds="39" castsShadows="true" receiveShadows="true"/>
               <TransformGroup name="Lights" translation="-0.000429034 -3.51801 5.54038" nodeId="460">
                 <TransformGroup name="backLights" nodeId="461">
                   <Shape shapeId="40" name="sideMarker05Red" translation="0 3.44381 -5.51775" rotation="-90 -0 0" clipDistance="300" nodeId="462" materialIds="33" castsShadows="true" receiveShadows="true">
@@ -897,29 +958,29 @@
             </Shape>
           </Shape>
           <TransformGroup name="Parts" nodeId="478">
-            <Shape shapeId="68" name="TankL.007" translation="1.24978 0.942493 -0.236404" nodeId="479" materialIds="40" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="69" name="TankL.008" translation="-1.24892 0.942493 -0.236404" nodeId="480" materialIds="40" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="70" name="TankL.009" translation="0.000429 0.176076 -0.20665" nodeId="481" materialIds="40" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="71" name="Tarp" translation="0.000427 -1.166 5.255" nodeId="482" materialIds="42" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="72" name="Tarp" rotation="90 -0 0" nodeId="483" materialIds="41" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="71" name="TankL.007" translation="1.24978 0.942493 -0.236404" nodeId="479" materialIds="40" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="72" name="TankL.008" translation="-1.24892 0.942493 -0.236404" nodeId="480" materialIds="40" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="73" name="TankL.009" translation="0.000429 0.176076 -0.20665" nodeId="481" materialIds="40" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="74" name="Tarp" translation="0.000427 -1.166 5.255" nodeId="482" materialIds="42" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="75" name="Tarp" rotation="90 -0 0" nodeId="483" materialIds="41" castsShadows="true" receiveShadows="true"/>
             </Shape>
-            <Shape shapeId="73" name="Tarp.003" translation="0.000427 -1.16611 5.25455" nodeId="484" materialIds="42" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="74" name="Tarp.004" translation="1.23063 3.85205 -5.68424" nodeId="485" materialIds="42" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="76" name="Tarp.003" translation="0.000427 -1.16611 5.25455" nodeId="484" materialIds="42" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="77" name="Tarp.004" translation="1.23063 3.85205 -5.68424" nodeId="485" materialIds="42" castsShadows="true" receiveShadows="true"/>
             </Shape>
-            <Shape shapeId="75" name="DetailTankL" translation="0.000429 0 0" visibility="false" nodeId="486" materialIds="15" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="76" name="DetailTankL" translation="0 -1.166 5.255" visibility="false" nodeId="487" materialIds="14" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="78" name="DetailTankL" translation="0.000429 0 0" visibility="false" nodeId="486" materialIds="15" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="79" name="DetailTankL" translation="0 -1.166 5.255" visibility="false" nodeId="487" materialIds="14" castsShadows="true" receiveShadows="true"/>
           </TransformGroup>
           <TransformGroup name="Col" nodeId="488">
-            <Shape shapeId="77" name="Cube.001" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="489" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="78" name="Cube.003" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="490" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="79" name="Cube.004" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="491" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-            <Shape shapeId="80" name="Cube.005" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="492" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="80" name="Cube.001" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="489" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="81" name="Cube.003" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="490" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="82" name="Cube.004" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="491" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="83" name="Cube.005" translation="0.000427 -1.16611 5.25455" compoundChild="true" collisionMask="8194" clipDistance="300" nodeId="492" materialIds="12" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </TransformGroup>
           <TransformGroup name="fillVolumes" nodeId="493">
             <TransformGroup name="unloadInfo" translation="-2.24425e-07 0.188502 10.315" rotation="0 -90 0" nodeId="494"/>
-            <Shape shapeId="81" name="exactFillRootNode" translation="0 -1.16611 5.25455" kinematic="true" compound="true" collisionMask="1073741824" nodeId="495" materialIds="12" nonRenderable="true"/>
+            <Shape shapeId="84" name="exactFillRootNode" translation="0 -1.16611 5.25455" kinematic="true" compound="true" collisionMask="1073741824" nodeId="495" materialIds="12" nonRenderable="true"/>
             <TransformGroup name="fillAutoAimTargetNode" translation="2.73073e-18 2.5095 4.93614" nodeId="496"/>
-            <Shape shapeId="81" name="fillVolume" translation="0 -1.16611 5.25455" nodeId="497" materialIds="12" nonRenderable="true"/>
+            <Shape shapeId="84" name="fillVolume" translation="0 -1.16611 5.25455" nodeId="497" materialIds="12" nonRenderable="true"/>
             <TransformGroup name="heightNodes" nodeId="498">
               <TransformGroup name="heightNode1" translation="1.15911 2.611 -0.254325" nodeId="499"/>
               <TransformGroup name="heightNode2" translation="-1.07032 2.61105 -0.237782" nodeId="500"/>
@@ -928,153 +989,153 @@
             <TransformGroup name="dischargeNodeGraindoor" translation="5.30226e-15 0.212054 -0.24932" nodeId="502"/>
             <TransformGroup name="effects" translation="0 -1.33602 5.20926" nodeId="503">
               <TransformGroup name="effectParticleBackRot" translation="0 1.69537 -5.30059" nodeId="504">
-                <Shape shapeId="82" name="effectParticleBack" translation="0 0 -0.10525" scale="1.16986 1 1" clipDistance="300" nodeId="505" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <Shape shapeId="85" name="effectParticleBack" translation="0 0 -0.10525" scale="1.16986 1 1" clipDistance="300" nodeId="505" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
               </TransformGroup>
               <TransformGroup name="grainNormRot" translation="0 1.72128 -5.47971" nodeId="506">
-                <Shape shapeId="83" name="grainNorm" translation="0 0 -0.033542" visibility="false" clipDistance="300" nodeId="507" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="86" name="grainNorm" translation="0 0 -0.033542" visibility="false" clipDistance="300" nodeId="507" materialIds="16" castsShadows="true" receiveShadows="true"/>
               </TransformGroup>
-              <Shape shapeId="84" name="smokeNorm" translation="0 1.22931 -5.7216" visibility="false" clipDistance="300" nodeId="508" materialIds="16" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="87" name="smokeNorm" translation="0 1.22931 -5.7216" visibility="false" clipDistance="300" nodeId="508" materialIds="16" castsShadows="true" receiveShadows="true"/>
               <TransformGroup name="particlesGrainDoor" translation="0 1.10419 -5.75556" nodeId="509">
                 <TransformGroup name="effectNodesDoor" nodeId="510">
-                  <Shape shapeId="85" name="effectGrainDoor" translation="0 0.536441 0.191711" scale="0.7 1 1" clipDistance="100" nodeId="511" materialIds="16" castsShadows="true" receiveShadows="true"/>
-                  <Shape shapeId="86" name="effectSmokeDoor" clipDistance="100" nodeId="512" materialIds="25" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="88" name="effectGrainDoor" translation="0 0.536441 0.191711" scale="0.7 1 1" clipDistance="100" nodeId="511" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="89" name="effectSmokeDoor" clipDistance="100" nodeId="512" materialIds="25" castsShadows="true" receiveShadows="true"/>
                 </TransformGroup>
                 <TransformGroup name="particleNodesDoor" translation="0 0 0.00664" nodeId="513">
-                  <Shape shapeId="87" name="effectParticleDoor" translation="0 0.850653 0.32031" clipDistance="300" nodeId="514" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                  <Shape shapeId="90" name="effectParticleDoor" translation="0 0.850653 0.32031" clipDistance="300" nodeId="514" materialIds="25" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
                 </TransformGroup>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="lights" nodeId="515">
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 -0.013" rotation="0 90 -61.009" clipDistance="300" nodeId="516" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="517" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 -0.013" rotation="0 90 -61.009" clipDistance="300" nodeId="516" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="517" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 1.263" rotation="0 90 -61.009" clipDistance="300" nodeId="518" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="519" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 1.263" rotation="0 90 -61.009" clipDistance="300" nodeId="518" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="519" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 2.523" rotation="0 90 -61.009" clipDistance="300" nodeId="520" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="521" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 2.523" rotation="0 90 -61.009" clipDistance="300" nodeId="520" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="521" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 3.796" rotation="0 90 -61.009" clipDistance="300" nodeId="522" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="523" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 3.796" rotation="0 90 -61.009" clipDistance="300" nodeId="522" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="523" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 5.061" rotation="0 90 -61.009" clipDistance="300" nodeId="524" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="525" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 5.061" rotation="0 90 -61.009" clipDistance="300" nodeId="524" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="525" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 6.333" rotation="0 90 -61.009" clipDistance="300" nodeId="526" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="527" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 6.333" rotation="0 90 -61.009" clipDistance="300" nodeId="526" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="527" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 7.605" rotation="0 90 -61.009" clipDistance="300" nodeId="528" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="529" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 7.605" rotation="0 90 -61.009" clipDistance="300" nodeId="528" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="529" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 8.874" rotation="0 90 -61.009" clipDistance="300" nodeId="530" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="531" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 8.874" rotation="0 90 -61.009" clipDistance="300" nodeId="530" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="531" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.258 0.138 10.14" rotation="0 90 -61.009" clipDistance="300" nodeId="532" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="533" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.258 0.138 10.14" rotation="0 90 -61.009" clipDistance="300" nodeId="532" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="533" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange1" translation="-1.258 0.138 -0.013" rotation="0 90 61.009" clipDistance="300" nodeId="534" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="535" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange1" translation="-1.258 0.138 -0.013" rotation="0 90 61.009" clipDistance="300" nodeId="534" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="535" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 1.263" rotation="0 90 61.009" clipDistance="300" nodeId="536" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="537" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 1.263" rotation="0 90 61.009" clipDistance="300" nodeId="536" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="537" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 2.523" rotation="0 90 61.009" clipDistance="300" nodeId="538" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="539" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 2.523" rotation="0 90 61.009" clipDistance="300" nodeId="538" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="539" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 3.796" rotation="0 90 61.009" clipDistance="300" nodeId="540" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="541" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 3.796" rotation="0 90 61.009" clipDistance="300" nodeId="540" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="541" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 5.061" rotation="0 90 61.009" clipDistance="300" nodeId="542" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="543" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 5.061" rotation="0 90 61.009" clipDistance="300" nodeId="542" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="543" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 6.333" rotation="0 90 61.009" clipDistance="300" nodeId="544" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="545" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 6.333" rotation="0 90 61.009" clipDistance="300" nodeId="544" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="545" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 7.605" rotation="0 90 61.009" clipDistance="300" nodeId="546" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="547" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 7.605" rotation="0 90 61.009" clipDistance="300" nodeId="546" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="547" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 8.874" rotation="0 90 61.009" clipDistance="300" nodeId="548" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="549" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 8.874" rotation="0 90 61.009" clipDistance="300" nodeId="548" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="549" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.258 0.138 10.14" rotation="0 90 61.009" clipDistance="300" nodeId="550" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="551" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.258 0.138 10.14" rotation="0 90 61.009" clipDistance="300" nodeId="550" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="551" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 -0.013" rotation="90 90 0" clipDistance="300" nodeId="552" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="553" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 -0.013" rotation="90 90 0" clipDistance="300" nodeId="552" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="553" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 1.263" rotation="90 90 0" clipDistance="300" nodeId="554" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="555" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 1.263" rotation="90 90 0" clipDistance="300" nodeId="554" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="555" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 2.523" rotation="90 90 0" clipDistance="300" nodeId="556" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="557" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 2.523" rotation="90 90 0" clipDistance="300" nodeId="556" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="557" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 3.796" rotation="90 90 0" clipDistance="300" nodeId="558" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="559" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 3.796" rotation="90 90 0" clipDistance="300" nodeId="558" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="559" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 5.061" rotation="90 90 0" clipDistance="300" nodeId="560" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="561" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 5.061" rotation="90 90 0" clipDistance="300" nodeId="560" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="561" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 6.333" rotation="90 90 0" clipDistance="300" nodeId="562" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="563" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 6.333" rotation="90 90 0" clipDistance="300" nodeId="562" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="563" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 7.605" rotation="90 90 0" clipDistance="300" nodeId="564" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="565" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 7.605" rotation="90 90 0" clipDistance="300" nodeId="564" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="565" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 8.874" rotation="90 90 0" clipDistance="300" nodeId="566" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="567" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 8.874" rotation="90 90 0" clipDistance="300" nodeId="566" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="567" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="1.174 2.46 10.14" rotation="90 90 0" clipDistance="300" nodeId="568" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="569" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="1.174 2.46 10.14" rotation="90 90 0" clipDistance="300" nodeId="568" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="569" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange2" translation="-1.174 2.46 -0.013" rotation="-90 90 0" clipDistance="300" nodeId="570" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="571" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange2" translation="-1.174 2.46 -0.013" rotation="-90 90 0" clipDistance="300" nodeId="570" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="571" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 1.263" rotation="-90 90 0" clipDistance="300" nodeId="572" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="573" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 1.263" rotation="-90 90 0" clipDistance="300" nodeId="572" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="573" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 2.523" rotation="-90 90 0" clipDistance="300" nodeId="574" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="575" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 2.523" rotation="-90 90 0" clipDistance="300" nodeId="574" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="575" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 3.796" rotation="-90 90 0" clipDistance="300" nodeId="576" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="577" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 3.796" rotation="-90 90 0" clipDistance="300" nodeId="576" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="577" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 5.061" rotation="-90 90 0" clipDistance="300" nodeId="578" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="579" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 5.061" rotation="-90 90 0" clipDistance="300" nodeId="578" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="579" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 6.333" rotation="-90 90 0" clipDistance="300" nodeId="580" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="581" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 6.333" rotation="-90 90 0" clipDistance="300" nodeId="580" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="581" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 7.605" rotation="-90 90 0" clipDistance="300" nodeId="582" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="583" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 7.605" rotation="-90 90 0" clipDistance="300" nodeId="582" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="583" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 8.874" rotation="-90 90 0" clipDistance="300" nodeId="584" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="585" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 8.874" rotation="-90 90 0" clipDistance="300" nodeId="584" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="585" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
-            <Shape shapeId="88" name="sideMarker_04Orange" translation="-1.174 2.46 10.14" rotation="-90 90 0" clipDistance="300" nodeId="586" materialIds="34" castsShadows="true" receiveShadows="true">
-              <Shape shapeId="89" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="587" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="91" name="sideMarker_04Orange" translation="-1.174 2.46 10.14" rotation="-90 90 0" clipDistance="300" nodeId="586" materialIds="34" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="92" name="workLightStatic" translation="0 0.00879898 0" clipDistance="35" nodeId="587" materialIds="35" castsShadows="true" receiveShadows="true" decalLayer="1"/>
             </Shape>
             <TransformGroup name="frontLights" translation="-0.000429 -1.166 5.255" nodeId="588">
               <Shape shapeId="40" name="sideMarker05White" translation="-1.17892 1.23787 5.06642" rotation="91.5842 -0 0" clipDistance="300" nodeId="589" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="590" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="590" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="1.179 1.23787 5.06642" rotation="91.5842 -0 0" clipDistance="300" nodeId="591" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="592" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="592" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="0 3.43605 5.064" rotation="91.5842 -0 0" clipDistance="300" nodeId="593" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="594" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="594" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="-0.235519 3.43605 5.064" rotation="91.5842 -0 0" clipDistance="300" nodeId="595" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="596" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="596" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="0.236 3.43605 5.064" rotation="91.5842 -0 0" clipDistance="300" nodeId="597" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="598" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="598" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="1.15498 3.41183 5.064" rotation="89.9782 1.58416 90" clipDistance="300" nodeId="599" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="600" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="600" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
               <Shape shapeId="40" name="sideMarker05White" translation="-1.15497 3.41006 5.0637" rotation="89.9782 1.58416 90" clipDistance="300" nodeId="601" materialIds="33" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="90" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="602" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="93" name="workLightStatic" translation="0 0.00879898 0" clipDistance="75" nodeId="602" materialIds="33" castsShadows="true" receiveShadows="true" decalLayer="1"/>
               </Shape>
             </TransformGroup>
             <TransformGroup name="realLights" translation="-0.000429 -1.166 5.255" nodeId="603">
@@ -1130,9 +1191,9 @@
         <TransformGroup name="transform" translation="-5.59838e-09 1.17645 3.71056" rotation="0 90 0" nodeId="648"/>
         <TransformGroup name="OUT" nodeId="649">
           <TransformGroup name="transform" translation="-0.549 1.17632 1.24457" rotation="0 -90 0" nodeId="650"/>
-          <Shape shapeId="91" name="plane" translation="-0.548 1.1913 1.18724" rotation="0 -0 90" scale="0.04 0.5 0.135" nodeId="651" materialIds="43" distanceBlending="false"/>
+          <Shape shapeId="94" name="plane" translation="-0.548 1.1913 1.18724" rotation="0 -0 90" scale="0.04 0.5 0.135" nodeId="651" materialIds="43" distanceBlending="false"/>
         </TransformGroup>
-        <Shape shapeId="92" name="Cylinder" translation="1.19333 0.5 -2.033" visibility="false" nodeId="652" materialIds="12" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="95" name="Cylinder" translation="1.19333 0.5 -2.033" visibility="false" nodeId="652" materialIds="12" castsShadows="true" receiveShadows="true"/>
       </Shape>
   </Scene>
 
