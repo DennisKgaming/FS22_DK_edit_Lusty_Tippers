@@ -38,69 +38,7 @@
     </base>
 
     <wheels> 
-		<wheelConfigurations>		
-            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
-                <wheels>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|0"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|1" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|2"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="true">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|3" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|4"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
-                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|5" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
-                    </wheel>
-                </wheels>
-            </wheelConfiguration>
-            <wheelConfiguration name="Spiders" price="0" >
-                <wheels>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|6|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|7|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|8|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|9|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|10|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
-                    </wheel>
-                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
-                        <physics restLoad="1.4" repr="0>0|0|11|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
-                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
-                    </wheel>
-                </wheels>
-				<objectChange node="0>0|0|6|0" visibilityActive="true" visibilityInactive="false" />
-				<objectChange node="0>0|0|7|0" visibilityActive="true" visibilityInactive="false" />
-				<objectChange node="0>0|0|8|0" visibilityActive="true" visibilityInactive="false" />
-				<objectChange node="0>0|0|9|0" visibilityActive="true" visibilityInactive="false" />
-				<objectChange node="0>0|0|10|0" visibilityActive="true" visibilityInactive="false" />
-				<objectChange node="0>0|0|11|0" visibilityActive="true" visibilityInactive="false" />				
-            </wheelConfiguration>
+		<wheelConfigurations>	
 			
 			<wheelConfiguration name="Default Special" price="0">
                 <wheels>
@@ -155,6 +93,70 @@
                     <wheel filename="Wheels/DennisK/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
                         <physics restLoad="1.4" repr="0>0|0|11|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
                         <additionalWheel filename="Wheels/DennisK/Alcoa.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                </wheels>
+				<objectChange node="0>0|0|6|0" visibilityActive="true" visibilityInactive="false" />
+				<objectChange node="0>0|0|7|0" visibilityActive="true" visibilityInactive="false" />
+				<objectChange node="0>0|0|8|0" visibilityActive="true" visibilityInactive="false" />
+				<objectChange node="0>0|0|9|0" visibilityActive="true" visibilityInactive="false" />
+				<objectChange node="0>0|0|10|0" visibilityActive="true" visibilityInactive="false" />
+				<objectChange node="0>0|0|11|0" visibilityActive="true" visibilityInactive="false" />				
+            </wheelConfiguration>
+			
+            <wheelConfiguration name="$l10n_configuration_valueDefault" price="0">
+                <wheels>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|0"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|1" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|2"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="true">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|3" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="true" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|4"  forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true"  offset="0.1"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="Trailer" isLeft="false" hasTireTracks="false">
+                        <physics tipOcclusionAreaGroupId="1" restLoad="1.4" repr="0>0|0|5" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false"  offset="0.1"/>
+                    </wheel>
+                </wheels>
+            </wheelConfiguration>
+			
+            <wheelConfiguration name="Spiders" price="0" >
+                <wheels>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|6|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50"/>
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|7|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|8|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|9|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="true" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|10|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="false" offset="0.01"/>
+                    </wheel>
+                    <wheel filename="Wheels/Alcoa.xml" configId="TwinS" isLeft="false" hasTireTracks="true" hasParticles="true">
+                        <physics restLoad="1.4" repr="0>0|0|11|0" forcePointRatio="0.5" initialCompression="20" suspTravel="0.30" spring="55" damper="50" />
+                        <additionalWheel filename="Wheels/Alcoa.xml" isLeft="true" offset="0.01"/>
                     </wheel>
                 </wheels>
 				<objectChange node="0>0|0|6|0" visibilityActive="true" visibilityInactive="false" />
@@ -320,18 +322,26 @@
 			<defaultLight shaderNode="0>0|3|3|3" lightTypes="0"/>
 			
         </defaultLights>
+		
 		<turnLights>
             <turnLightLeft  shaderNode="0>0|3|0|4" />
             <turnLightRight shaderNode="0>0|3|2|4" />
             <turnLightLeft  shaderNode="0>0|3|1|4" />
             <turnLightRight shaderNode="0>0|3|3|4" />
         </turnLights>
+		
 		<brakeLights>
 			<brakeLight shaderNode="0>0|3|0|2" />
             <brakeLight shaderNode="0>0|3|1|2" />
 			<brakeLight shaderNode="0>0|3|2|2" />
             <brakeLight shaderNode="0>0|3|3|2" />
         </brakeLights>
+		
+		<beaconLights>
+			<beaconLight node="flasherL" filename="lights/Flash/Flash.xml"/>
+			<beaconLight node="flasherR" filename="lights/Flash/Flash2.xml"/>
+		</beaconLights>
+		
     </lights>
 	
     <animations> 
@@ -608,7 +618,7 @@
     </rimColorConfigurations>
 		
 	<vehicleTypeConfigurations title="$l10n_configuration_graphics">
-        <vehicleTypeConfiguration name="dEFUALT" price="0" vehicleType="trailer">
+        <vehicleTypeConfiguration name="DEFAULT" price="0" vehicleType="trailer">
             <objectChange node="0>1|1|6" visibilityActive="true"/>
         </vehicleTypeConfiguration>
         <vehicleTypeConfiguration name="2" price="0" vehicleType="trailer">
@@ -633,6 +643,13 @@
 
     <wearable wearDuration="480" workMultiplier="3" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="3" fieldMultiplier="2"/>
+	
+	
+	<i3dMappings>
+        <i3dMapping id="flasherL" 		node="0>0|3|11|0"/>
+        <i3dMapping id="flasherR" 		node="0>0|3|11|1"/>
+	</i3dMappings>
+	
 
 
 </vehicle>
