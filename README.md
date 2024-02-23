@@ -86,21 +86,21 @@ Because GitHub has a certain way of packing a release please do the following:
 
 ## Screenshots
 
-![Alt text](screenshots/screenShot_01.png)
+![Alt text](screenshots/screenshot_01.png)
 
-![Alt text](screenshots/screenShot_02.png)
+![Alt text](screenshots/screenshot_02.png)
 
-![Alt text](screenshots/screenShot_03.png)
+![Alt text](screenshots/screenshot_03.png)
 
-![Alt text](screenshots/screenShot_04.png)
+![Alt text](screenshots/screenshot_04.png)
 
-![Alt text](screenshots/screenShot_05.png)
+![Alt text](screenshots/screenshot_05.png)
 
-![Alt text](screenshots/screenShot_06.png)
+![Alt text](screenshots/screenshot_06.png)
 
-![Alt text](screenshots/screenShot_07.png)
+![Alt text](screenshots/screenshot_07.png)
 
-![Alt text](screenshots/screenShot_08.png)
+![Alt text](screenshots/screenshot_08.png)
 
 
 ## Additional information
