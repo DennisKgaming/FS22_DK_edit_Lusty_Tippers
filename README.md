@@ -75,7 +75,7 @@ Multiplayer is tested and supported.
 ## Guide / documentation
 
 
-Check the release page for the most recent version of this mod: https://github.com/DennisKgaming/FS22_DK_edit_Goldhofer_StzVp3/releases
+Check the release page for the most recent version of this mod: https://github.com/DennisKgaming/FS22_DK_edit_Lusty_Tippers/releases
 
 Because GitHub has a certain way of packing a release please do the following:
 - Unpack zip file
