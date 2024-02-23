@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="61">
     <author>JFL Modding, (ATS. TSA, Ventyres, Bora, Swen.) </author>
-    <version>1.0.0.0</version>
+    <version>2.0.0</version>
     <title>
         <en>Lusty Tippers DK edit</en>
         <de>Lusty Tippers DK edit</de>
@@ -9,16 +9,16 @@
     <description>
         <en>
             <![CDATA[Graham Lusty Trailers (GLT) bring you the most innovative and beautifully crafted trailers in the Australian market
-- Lead Trailer   Capacity: 40000l Price: 52500
-- Follow Trailer Capacity: 60000l Price: 72500
-- TOA Trailer 	 Capacity: 60000l Price: 72500
+- Lead Trailer   Capacity: 50000l Price: 52500
+- Follow Trailer Capacity: 75000l Price: 72500
+- TOA Trailer 	 Capacity: 75000l Price: 72500
 ]]>
         </en>
         <de>
             <![CDATA[Graham Lusty Trailers (GLT) bietet Ihnen die innovativsten und am besten gefertigten Anhänger auf dem australischen Markt
-- Lead Trailer Kapazität: 40000l Preis: 52500
-- Folgen Trailer Kapazität: 60000l Preis: 72500
-- TOA Trailer Kapazität: 60000l Preis: 72500
+- Lead Trailer Kapazität: 50000l Preis: 52500
+- Folgen Trailer Kapazität: 75000l Preis: 72500
+- TOA Trailer Kapazität: 75000l Preis: 72500
 ]]>
 		</de>
     </description>
